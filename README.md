@@ -19,3 +19,6 @@
 
 # Results
 - At the bottom of the .ipynb file you will be able to see a single image processed and displayed. The graph displays the correct flower (blanket flower) had the highest probability of being chosen. The remaining flowers each had <10% probability of being chosen by the model.
+
+- ![ICResults](https://user-images.githubusercontent.com/63812857/132139948-a13ab1a3-f73f-4521-a2ea-d093b8ec75ea.png)
+
