@@ -15,3 +15,7 @@
 - Saving Model: The model is now trained and tested multiple new imagesets, after this point the model in its current state (model parameters, optimizer, loss function) is saved as a checkpoint. The checkpoint allows us to use the fully trained model instead of having to re-train it for every use. 
 
 - Further inference: Now comes the ultimate test, the model has been trained and tested on multiple imagesets. If our model is successful it should be able to take any single image and given a log likelihood provide us with the most likely flower name to that image. This is tested by creating a function to normalize a single image and putting that single image through the model in order to graph the log likelihood of the names (labels) chosen by the model to try to match the input.
+
+
+# Results
+- At the bottom of the .ipynb file you will be able to see a single image processed and displayed. The graph displays the correct flower (blanket flower) had the highest probability of being chosen. The remaining flowers each had <10% probability of being chosen by the model.
