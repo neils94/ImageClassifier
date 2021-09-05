@@ -2,7 +2,7 @@
 - To summarize: this Image Classifier uses a pytorch model (vgg16) to classify over 100 different classes of flowers.
 
 # Methodology
-- Preprocessing: First I apply transformations to normalize the images in a way that torch models can recognize them, as well as center crop and resize the images in order to extract the main features.  Next, the image data is split into 3 separate folders; one for training, one for testing and one for validation. After this, a json package is used to decode a file that takes the real flower labels matching to their real class numbers in order to use the file later to measure the predicted vs actual values for python to interpret it.
+- Preprocessing: First transformations are applied to normalize the images in a way that torch models can recognize them, as well as center crop and resize the images in order to extract the main features.  Next, the image data is split into 3 separate folders; one for training, one for testing and one for validation. After this, a json package is used to decode a file that takes the real flower labels matching to their real class numbers in order to use the file later to measure the predicted vs actual values for python to interpret it.
  
 - Model selection: For this type of an image classification problem either one of resnet, vgg, alexnet models would have worked equally as well but I decided to work with vgg16. 
  
